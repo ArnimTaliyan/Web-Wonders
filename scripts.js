@@ -12,3 +12,11 @@ document.addEventListener('DOMContentLoaded', function () {
         loginSection.classList.toggle('hidden');
     });
 });
+function toggleLoginPanel() {
+    const loginPanel = document.getElementById('loginPanel');
+    loginPanel.style.display = (loginPanel.style.display === 'none' || loginPanel.style.display === '') ? 'block' : 'none';
+}
+function togglePanel(panelId) {
+    const panel = document.getElementById(panelId);
+    panel.style.display = (panel.style.display === 'none' || panel.style.display === '') ? 'block' : 'none';
+}
