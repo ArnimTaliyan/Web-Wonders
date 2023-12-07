@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Web Design and Development Site</title>
+    <title>Web Wonders</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Web Wonders</h1>
-        <nav>
+    <header class="tesla-header">
+        <div class="logo-container">
+            <img src="/home/arnim_taliyan/Desktop/web wonders/Screenshot from 2023-12-07 23-01-41.png" alt="Your Company Logo">
+        </div>
+        <nav class="tesla-nav">
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
@@ -22,28 +24,15 @@
         </nav>
     </header>
 
-    <section id="home">
-        <h2>Welcome to Our Website</h2>
-        <p>Your go-to destination for web design and development services.</p>
+    <section id="home" class="tesla-hero">
+        <h1>Welcome to Your Web Design Company</h1>
+        <p>Your go-to destination for cutting-edge web design and development services.</p>
     </section>
 
-    <section id="login" class="hidden">
-        <h2>Login</h2>
-        <button id="loginButton" onclick="toggleLoginPanel()">Login</button>
-        <div id="loginPanel">
-            <form id="loginForm">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                <button type="button" onclick="performLogin()">Login</button>
-            </form>
-        </div>
-    <footer>
-        <p>&copy; 2023 Web Wonders. All rights reserved.</p>
+    <footer class="tesla-footer">
+        <p>&copy; Web Wonders. All rights reserved.</p>
     </footer>
 
     <script src="scripts.js"></script>
-    <script src="dynamic.js"></script>
 </body>
 </html>

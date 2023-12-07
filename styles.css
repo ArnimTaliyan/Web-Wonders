@@ -347,3 +347,12 @@ footer {
     text-align: center;
     padding: 20px;
 }
+.logo-container {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.logo-container img {
+    max-width: 30%;
+    height: auto;
+}

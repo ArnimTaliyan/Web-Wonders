@@ -20,3 +20,7 @@ function togglePanel(panelId) {
     const panel = document.getElementById(panelId);
     panel.style.display = (panel.style.display === 'none' || panel.style.display === '') ? 'block' : 'none';
 }
+function toggleMenu() {
+    const nav = document.querySelector('.tesla-nav');
+    nav.classList.toggle('show');
+}
